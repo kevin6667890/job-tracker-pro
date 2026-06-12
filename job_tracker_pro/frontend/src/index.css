@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  @apply bg-gray-950 text-gray-100;
+}
+
+#root {
+  min-height: 100vh;
+}
